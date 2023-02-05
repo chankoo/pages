@@ -3,7 +3,6 @@ title: Microarchitecture
 categories: [컴퓨터구조]
 tags: [CPU]
 date: 2022-10-09T22:34:57+09:00
-draft: true
 ---
 
 ## content

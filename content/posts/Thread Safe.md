@@ -3,7 +3,6 @@ title: Thread Safe
 categories: [컴퓨터구조]
 tags: [스레드, 동시성, 함수형프로그래밍]
 date: 2022-10-08T21:07:04+09:00
-draft: true
 ---
 
 ## content

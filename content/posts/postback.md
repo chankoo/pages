@@ -3,7 +3,6 @@ title: postback
 categories: [기타]
 tags: [광고]
 date: 2022-10-06T00:01:42+09:00
-draft: true
 ---
 
 ## content

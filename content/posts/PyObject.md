@@ -3,7 +3,6 @@ title: PyObject
 categories: [언어]
 tags: [python, 메모리]
 date: 2022-10-03T15:37:15+09:00
-draft: true
 ---
 
 ## content

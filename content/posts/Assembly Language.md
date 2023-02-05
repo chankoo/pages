@@ -3,7 +3,6 @@ title: Assembly Language
 categories: [컴퓨터구조]
 tags: []
 date: 2022-10-09T22:15:44+09:00
-draft: true
 ---
 
 ## content

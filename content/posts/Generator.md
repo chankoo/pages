@@ -3,7 +3,6 @@ title: Generator
 categories: [자료구조]
 tags: [python]
 date: 2022-10-12T00:08:35+09:00
-draft: true
 ---
 
 ## content

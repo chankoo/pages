@@ -3,7 +3,6 @@ title: dis
 categories: [언어]
 tags: [python]
 date: 2022-10-09T22:02:55+09:00
-draft: true
 ---
 
 ## content

@@ -3,7 +3,6 @@ title: Assembler
 categories: [컴퓨터구조]
 tags: []
 date: 2022-10-09T22:04:11+09:00
-draft: true
 ---
 
 ## content

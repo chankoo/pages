@@ -3,7 +3,6 @@ title: DI
 categories: [아키텍처]
 tags: []
 date: 2022-10-06T23:33:48+09:00
-draft: true
 ---
 
 ## content

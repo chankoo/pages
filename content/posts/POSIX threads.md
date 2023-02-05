@@ -3,7 +3,6 @@ title: POSIX threads
 categories: [OS]
 tags: [UNIX, C]
 date: 2022-10-08T21:33:44+09:00
-draft: true
 ---
 
 ## content

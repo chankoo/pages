@@ -3,7 +3,6 @@ title: Cython
 categories: [언어]
 tags: [python, C]
 date: 2022-10-03T13:54:50+09:00
-draft: true
 ---
 
 ## content

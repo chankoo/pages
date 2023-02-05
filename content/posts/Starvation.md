@@ -3,7 +3,6 @@ title: Starvation
 categories: [OS]
 tags: []
 date: 2022-10-09T00:15:32+09:00
-draft: true
 ---
 
 ## content

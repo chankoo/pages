@@ -3,7 +3,6 @@ title: CPython
 categories: [언어]
 tags: [python]
 date: 2022-10-03T13:40:56+09:00
-draft: true
 ---
 
 ## content

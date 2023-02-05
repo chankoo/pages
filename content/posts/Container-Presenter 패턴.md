@@ -3,7 +3,6 @@ title: Container-Presenter 패턴
 categories: [아키텍처]
 tags: [디자인패턴, react]
 date: 2022-10-03T12:37:15+09:00
-draft: true
 ---
 
 ## content

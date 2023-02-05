@@ -3,7 +3,6 @@ title: POSIX
 categories: [OS]
 tags: [UNIX, C]
 date: 2022-10-08T21:49:21+09:00
-draft: true
 ---
 
 ## content

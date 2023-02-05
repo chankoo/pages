@@ -3,7 +3,6 @@ title: Bytecode
 categories: [컴퓨터구조]
 tags: [python]
 date: 2022-10-09T22:50:37+09:00
-draft: true
 ---
 
 ## content

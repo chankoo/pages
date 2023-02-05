@@ -3,7 +3,6 @@ title: ISA
 categories: [컴퓨터구조]
 tags: [CPU]
 date: 2022-10-09T22:22:35+09:00
-draft: true
 ---
 
 ## content

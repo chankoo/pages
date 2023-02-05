@@ -3,7 +3,6 @@ title: Python-GC
 categories: [언어]
 tags: [python, 메모리]
 date: 2022-10-03T16:08:52+09:00
-draft: true
 ---
 
 ## content

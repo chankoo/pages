@@ -3,7 +3,6 @@ title: why numpy array
 categories: [언어]
 tags: [python, numpy, 메모리]
 date: 2022-10-03T16:17:54+09:00
-draft: true
 ---
 
 ## content

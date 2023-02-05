@@ -3,7 +3,6 @@ title: Dynamic Array
 categories: [자료구조]
 tags: [메모리, python]
 date: 2022-10-03T00:11:36+09:00
-draft: true
 ---
 
 ## content

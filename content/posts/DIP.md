@@ -3,7 +3,6 @@ title: DIP
 categories: [아키텍처]
 tags: [SOLID, OOP]
 date: 2022-10-06T23:42:10+09:00
-draft: true
 ---
 
 ## content

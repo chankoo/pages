@@ -3,7 +3,6 @@ title: EBS
 categories: [OS]
 tags: [기억장치, AWS]
 date: 2022-10-14T00:02:11+09:00
-draft: true
 ---
 
 ## content

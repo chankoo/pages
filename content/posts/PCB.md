@@ -3,7 +3,6 @@ title: PCB
 categories: [OS]
 tags: [CPU]
 date: 2022-10-13T23:31:07+09:00
-draft: true
 ---
 
 ## content

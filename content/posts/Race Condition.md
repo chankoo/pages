@@ -3,7 +3,6 @@ title: Race Condition
 categories: [OS]
 tags: []
 date: 2022-10-08T21:56:55+09:00
-draft: true
 ---
 
 ## content
