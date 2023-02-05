@@ -2,12 +2,27 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Replace Obsidian links with Hugo links
+cd content/posts
+
+for file in *.md
+do
+  tmp_file="$file.tmp"
+  sed -r 's/\[\[(.*)\]\]/[\1]({{< ref "\/posts\/\1.md" >}})/g' "$file" > "$tmp_file"
+
+  if [ -s "$tmp_file" ]; then
+    mv "$tmp_file" "$file"
+  else
+    rm "$tmp_file"
+  fi
+done
+
 # Build the project.
 # hugo -t <여러분의 테마>
 hugo -t hugo-clarity
 
 # Go To Public folder, sub module commit
-cd public
+cd ../../public
 # Add changes to git.
 git add .
 
