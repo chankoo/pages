@@ -11,7 +11,7 @@ draft: true
 
 
 ## refs
-- https://ko.wikipedia.org/wiki/JIT_%EC%BB%B4%ED%8C%8C%EC%9D%BC
+-[JIT 컴파일 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/JIT_%EC%BB%B4%ED%8C%8C%EC%9D%BC)
 
 
 ## links

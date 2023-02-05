@@ -13,7 +13,7 @@ draft: true
 
 
 ## refs
-- https://en.wikipedia.org/wiki/Generator_(computer_programming)
+- [Generator (computer programming) - Wikipedia](https://en.wikipedia.org/wiki/Generator_(computer_programming))
 
 
 ## links

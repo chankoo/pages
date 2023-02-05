@@ -21,7 +21,7 @@ MVC(UIKit) 를 이용하던 iOS 개발의 대세 흐름이 MVVM(SwiftUI)을 이�
 
 
 ## refs
-- https://medium.com/hcleedev/ios-swiftui%EC%9D%98-mvvm-%ED%8C%A8%ED%84%B4%EA%B3%BC-mvc%EC%99%80%EC%9D%98-%EB%B9%84%EA%B5%90-8662c96353cc
+- [iOS 개발 — MVVM 패턴이란? UIKit의 MVC와의 비교 | by Heechan | HcleeDev | Medium](https://medium.com/hcleedev/ios-swiftui%EC%9D%98-mvvm-%ED%8C%A8%ED%84%B4%EA%B3%BC-mvc%EC%99%80%EC%9D%98-%EB%B9%84%EA%B5%90-8662c96353cc)
 
 
 ## links

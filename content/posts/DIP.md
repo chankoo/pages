@@ -15,7 +15,6 @@ Dependency Inversion Principle(의존성 역전 원칙)
 
 ## refs
 - [[클린 아키텍처]]
-- 
 
 
 ## links

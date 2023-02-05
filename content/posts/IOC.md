@@ -12,8 +12,8 @@ Inversion Of Control(제어 역전)
 
 
 ## refs
-- https://www.inflearn.com/course/spring_revised_edition/unit/19735?tab=curriculum
-- https://vagabond95.me/posts/about-ioc-dip-di/
+- [학습 페이지](https://www.inflearn.com/course/spring_revised_edition/unit/19735?tab=curriculum)
+- [[Study]IoC, DI, DIP 개념 잡기 - 기록은 기억을 지배한다](https://vagabond95.me/posts/about-ioc-dip-di/)
 
 
 ## links

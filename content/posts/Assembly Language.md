@@ -11,7 +11,7 @@ ISA의 명령어를 문자화 시킨 저급 언어이다.  프로그래머가 �
 
 
 ## refs
-- https://it-eldorado.tistory.com/23
+- [Fetching Title#d80f](https://it-eldorado.tistory.com/23)
 
 
 ## links

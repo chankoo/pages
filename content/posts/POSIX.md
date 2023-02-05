@@ -14,7 +14,7 @@ C 언어 인터페이스인 시스템콜과 프로세스 환경, 파일 시스�
 
 
 ## refs
-- https://ko.wikipedia.org/wiki/POSIX
+- [POSIX - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/POSIX)
 
 
 ## links

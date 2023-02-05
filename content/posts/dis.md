@@ -24,7 +24,7 @@ def hi(x):
 위 정의에 따르면, 추상화한 바이트코드를 바이트코드로 바꾸는 것도 어셈블이라 볼 수 있다.
 
 ## refs
-- https://python.flowdas.com/library/dis.html
+- [dis --- 파이썬 바이트 코드 역 어셈블러 — 파이썬 설명서 주석판](https://python.flowdas.com/library/dis.html)
 
 
 ## links

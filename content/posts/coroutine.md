@@ -16,8 +16,8 @@ Co-Routine. 다른 루틴과 동등한 레벨에서 상호 협력하는 루틴. 
 
 
 ## refs
-- https://sgc109.github.io/2020/11/25/python-and-concurrency/
-- https://aaronryu.github.io/2019/05/27/coroutine-and-thread/
+- [파이썬과 동시성 프로그래밍 - Sungho's Blog](https://sgc109.github.io/2020/11/25/python-and-concurrency/)
+- [Coroutine, Thread 와의 차이와 그 특징 - Crucian Carp](https://aaronryu.github.io/2019/05/27/coroutine-and-thread/)
 
 
 ## links

@@ -16,7 +16,7 @@ draft: true
 
 
 ## refs
-- https://realpython.com/python-memory-management/#memory-management-from-hardware-to-software
+- [Memory Management in Python – Real Python](https://realpython.com/python-memory-management/#memory-management-from-hardware-to-software)
 
 
 ## links

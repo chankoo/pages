@@ -13,7 +13,7 @@ C로 파이썬의 확장 모듈을 구현하기 위해 설계한 컴파일 언�
 
 
 ## refs
-- https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%EC%8D%AC
+- [사이썬 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%EC%8D%AC)
 
 
 ## links

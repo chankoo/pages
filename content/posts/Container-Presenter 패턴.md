@@ -20,8 +20,8 @@ aka Smart & Dumb conponents
 
 
 ## refs
-- https://aroundreact.com/react-best-practices-for-software-design-and-architecture/#Smart_Dumb
-- https://www.patterns.dev/posts/presentational-container-pattern/
+- [Fetching Title#vqbu](https://aroundreact.com/react-best-practices-for-software-design-and-architecture/#Smart_Dumb)
+- [Container/Presentational Pattern](https://www.patterns.dev/posts/presentational-container-pattern/)
 
 
 ## links

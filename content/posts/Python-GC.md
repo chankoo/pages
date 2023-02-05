@@ -20,7 +20,7 @@ draft: true
 
 
 ## refs
-- https://blog.winterjung.dev/2018/02/18/python-gc
+- [Fetching Title#39yg](https://blog.winterjung.dev/2018/02/18/python-gc)
 
 
 ## links

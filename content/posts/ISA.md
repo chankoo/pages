@@ -17,8 +17,8 @@ CPU가 이해할 수 있는 기계어 명령어 집합을 의미한다. CPU 마�
 프로세서 칩을 만드는 회사마다 ISA가 다른데, 익숙한 예로 Intel의 칩은 x86을, ARM의 칩은 ARM 을 쓰는 식이다.
 
 ## refs
-- https://ko.wikipedia.org/wiki/%EB%AA%85%EB%A0%B9%EC%96%B4_%EC%A7%91%ED%95%A9
-- https://inyongs.tistory.com/108
+- [명령어 집합 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EB%AA%85%EB%A0%B9%EC%96%B4_%EC%A7%91%ED%95%A9)
+- [[ 컴퓨터구조 ] ISA (Instruction Set Architecture)](https://inyongs.tistory.com/108)
 
 
 ## links

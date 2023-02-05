@@ -16,7 +16,7 @@ python 의 list 는 dynamic array이다. 런타임에 element를 추가할때, �
 하지만 
 
 ## refs
-- https://enfow.github.io/study/algorithm/2020/12/08/python_bulitin_time_complexity-copy/
+- [Python Bulit-in Time Complexity: List · Enfow's Blog](https://enfow.github.io/study/algorithm/2020/12/08/python_bulitin_time_complexity-copy/)
 
 
 ## links
