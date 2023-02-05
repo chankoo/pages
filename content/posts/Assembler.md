@@ -17,6 +17,6 @@ draft: true
 
 
 ## links
-- [[Assembly Language]]
-- [[ISA]]
+- [Assembly Language]({{< ref "/posts/Assembly Language.md" >}})
+- [ISA]({{< ref "/posts/ISA.md" >}})
 

@@ -20,5 +20,5 @@ python 의 list 는 dynamic array이다. 런타임에 element를 추가할때, �
 
 
 ## links
-- [[amortized analysis]]
+- [amortized analysis]({{< ref "/posts/amortized analysis.md" >}})
 - 

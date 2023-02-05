@@ -14,10 +14,10 @@ Dependency Inversion Principle(의존성 역전 원칙)
 
 
 ## refs
-- [[클린 아키텍처]]
+- [클린 아키텍처]({{< ref "/posts/클린 아키텍처.md" >}})
 
 
 ## links
-- [[SOLID]]
-- [[추상 팩토리 패턴]]
+- [SOLID]({{< ref "/posts/SOLID.md" >}})
+- [추상 팩토리 패턴]({{< ref "/posts/추상 팩토리 패턴.md" >}})
 - 

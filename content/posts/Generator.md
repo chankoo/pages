@@ -17,5 +17,5 @@ draft: true
 
 
 ## links
-- [[Iterator]]
-- [[coroutine]]
+- [Iterator]({{< ref "/posts/Iterator.md" >}})
+- [coroutine]({{< ref "/posts/coroutine.md" >}})

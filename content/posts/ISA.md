@@ -22,4 +22,4 @@ CPU가 이해할 수 있는 기계어 명령어 집합을 의미한다. CPU 마�
 
 
 ## links
-- [[Assembly Language]]
+- [Assembly Language]({{< ref "/posts/Assembly Language.md" >}})

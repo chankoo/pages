@@ -20,4 +20,4 @@ draft: true
 
 
 ## links
-- [[CPython]]
+- [CPython]({{< ref "/posts/CPython.md" >}})

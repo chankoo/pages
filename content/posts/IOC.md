@@ -17,7 +17,7 @@ Inversion Of Control(제어 역전)
 
 
 ## links
-- [[DI]]
-- [[DIP]]
+- [DI]({{< ref "/posts/DI.md" >}})
+- [DIP]({{< ref "/posts/DIP.md" >}})
 
 

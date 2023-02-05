@@ -15,4 +15,4 @@ draft: true
 
 
 ## links
-- [[webhook]]
+- [webhook]({{< ref "/posts/webhook.md" >}})

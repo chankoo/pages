@@ -24,5 +24,5 @@ draft: true
 
 
 ## links
-- [[가비지 컬렉션]]
-- [[PyObject]]
+- [가비지 컬렉션]({{< ref "/posts/가비지 컬렉션.md" >}})
+- [PyObject]({{< ref "/posts/PyObject.md" >}})

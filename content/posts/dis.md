@@ -17,9 +17,9 @@ def hi(x):
 	return x
 ```
 
-![[Pasted image 20221009230203.png]]
+![Pasted image 20221009230203.png]({{< ref "/posts/Pasted image 20221009230203.png.md" >}})
 
-![[Pasted image 20221009225606.png]]
+![Pasted image 20221009225606.png]({{< ref "/posts/Pasted image 20221009225606.png.md" >}})
 
 위 정의에 따르면, 추상화한 바이트코드를 바이트코드로 바꾸는 것도 어셈블이라 볼 수 있다.
 
@@ -28,5 +28,5 @@ def hi(x):
 
 
 ## links
-- [[Bytecode]]
-- [[Assembler]]
+- [Bytecode]({{< ref "/posts/Bytecode.md" >}})
+- [Assembler]({{< ref "/posts/Assembler.md" >}})

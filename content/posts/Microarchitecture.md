@@ -17,4 +17,4 @@ ISA를 구현하는 방법을 말한다.
 
 
 ## links
-- [[ISA]]
+- [ISA]({{< ref "/posts/ISA.md" >}})

@@ -17,5 +17,5 @@ C로 파이썬의 확장 모듈을 구현하기 위해 설계한 컴파일 언�
 
 
 ## links
-- [[CPython]]
-- [[컴파일러]]
+- [CPython]({{< ref "/posts/CPython.md" >}})
+- [컴파일러]({{< ref "/posts/컴파일러.md" >}})

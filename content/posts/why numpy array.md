@@ -23,5 +23,5 @@ draft: true
 
 
 ## links
-- [[PyObject]]
-- [[Dynamic Array]]
+- [PyObject]({{< ref "/posts/PyObject.md" >}})
+- [Dynamic Array]({{< ref "/posts/Dynamic Array.md" >}})

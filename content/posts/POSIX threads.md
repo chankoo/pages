@@ -16,4 +16,4 @@ Pthreads. UNIX 기반 운영체제에서 멀티 스레딩을 위해 제공하는
 
 
 ## links
-- [[POSIX]]
+- [POSIX]({{< ref "/posts/POSIX.md" >}})

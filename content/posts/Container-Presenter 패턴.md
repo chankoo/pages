@@ -16,7 +16,7 @@ aka Smart & Dumb conponents
 
 반면 데이터 가져오는 역할을 hook이 점차 대체하며, 굳이 컨테이너 컴포넌트를 두는게 불필요하다는 의견도 늘고있다.
 
-![[Component.png|400]]
+![Component.png|400]({{< ref "/posts/Component.png|400.md" >}})
 
 
 ## refs
@@ -25,4 +25,4 @@ aka Smart & Dumb conponents
 
 
 ## links
-- [[험블 객체 패턴]]
+- [험블 객체 패턴]({{< ref "/posts/험블 객체 패턴.md" >}})
