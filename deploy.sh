@@ -2,6 +2,10 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Build the project.
+# hugo -t <여러분의 테마>
+hugo -t hugo-clarity
+
 # Replace Obsidian links with Hugo links
 cd content/posts
 
@@ -16,10 +20,6 @@ do
     rm "$tmp_file"
   fi
 done
-
-# Build the project.
-# hugo -t <여러분의 테마>
-hugo -t hugo-clarity
 
 # Go To Public folder, sub module commit
 cd ../../public
