@@ -1,8 +1,11 @@
 ---
 title: coroutine
-categories: [컴퓨터구조]
-tags: [동시성]
+categories:
+  - 컴퓨터구조
+tags:
+  - 동시성
 date: 2022-10-11T20:39:15+09:00
+modified: 2023-11-22T16:24:26+09:00
 ---
 
 ## content
@@ -21,3 +24,4 @@ Co-Routine. 다른 루틴과 동등한 레벨에서 상호 협력하는 루틴. 
 
 ## links
 - [동시성]({{< ref "/posts/동시성.md" >}})
+- [스레드]({{< ref "/posts/스레드.md" >}})

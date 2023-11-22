@@ -1,8 +1,12 @@
 ---
 title: Starvation
-categories: [OS]
-tags: []
+categories:
+  - OS
+tags:
+  - 스레드
+  - 동시성
 date: 2022-10-09T00:15:32+09:00
+modified: 2023-11-22T16:23:00+09:00
 ---
 
 ## content

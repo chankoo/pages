@@ -1,8 +1,12 @@
 ---
 title: Race Condition
-categories: [OS]
-tags: []
+categories:
+  - OS
+tags:
+  - 스레드
+  - 동시성
 date: 2022-10-08T21:56:55+09:00
+modified: 2023-11-22T16:21:30+09:00
 ---
 
 ## content
