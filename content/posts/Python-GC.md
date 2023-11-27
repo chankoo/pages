@@ -1,8 +1,12 @@
 ---
 title: Python-GC
-categories: [언어]
-tags: [python, 메모리]
+categories:
+  - 언어
+tags:
+  - python
+  - 메모리
 date: 2022-10-03T16:08:52+09:00
+modified: 2023-11-27T20:58:23+09:00
 ---
 
 ## content
@@ -19,7 +23,7 @@ date: 2022-10-03T16:08:52+09:00
 
 
 ## refs
-- [Fetching Title#39yg](https://blog.winterjung.dev/2018/02/18/python-gc)
+- [Python GC가 작동하는 원리](https://blog.winterjung.dev/2018/02/18/python-gc)
 
 
 ## links

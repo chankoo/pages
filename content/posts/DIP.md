@@ -1,8 +1,11 @@
 ---
 title: DIP
-categories: [아키텍처]
-tags: [SOLID, OOP]
+categories:
+  - 아키텍처
+tags:
+  - SOLID
 date: 2022-10-06T23:42:10+09:00
+modified: 2023-11-27T20:43:09+09:00
 ---
 
 ## content
@@ -19,4 +22,3 @@ Dependency Inversion Principle(의존성 역전 원칙)
 ## links
 - [SOLID]({{< ref "/posts/SOLID.md" >}})
 - [추상 팩토리 패턴]({{< ref "/posts/추상 팩토리 패턴.md" >}})
-- 

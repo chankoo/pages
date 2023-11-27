@@ -1,9 +1,13 @@
 ---
 title: Isolation Levels
-categories: [DB]
-tags: [mysql, 동시성]
+categories:
+  - DB
+tags:
+  - mysql
+  - 동시성
 date: 2022-10-09T12:37:01+09:00
-draft: true
+draft: false
+modified: 2023-11-27T20:51:10+09:00
 ---
 
 ## content

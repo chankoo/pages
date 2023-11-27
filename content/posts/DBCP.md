@@ -7,8 +7,8 @@ tags:
   - django
   - gunicorn
 date: 2023-11-22T12:01:24+09:00
-draft: true
-modified: 2023-11-22T15:52:27+09:00
+draft: false
+modified: 2023-11-27T20:29:04+09:00
 ---
 
 ## content

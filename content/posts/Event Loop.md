@@ -6,8 +6,8 @@ tags:
   - gunicorn
   - javascript
 date: 2022-10-25T23:23:22+09:00
-draft: true
-modified: 2023-11-22T18:35:11+09:00
+draft: false
+modified: 2023-11-27T20:50:22+09:00
 ---
 
 ## content

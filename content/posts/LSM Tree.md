@@ -4,8 +4,8 @@ categories:
   - 자료구조
 tags: 
 date: 2023-11-21T19:33:43+09:00
-draft: true
-modified: 2023-11-21T20:03:39+09:00
+draft: false
+modified: 2023-11-27T20:51:43+09:00
 ---
 
 ## content
@@ -19,3 +19,4 @@ Log Structured Merge Tree는 로그성 데이터 색인을 위해 고안된 자�
 
 ## links
 - [B-Tree]({{< ref "/posts/B-Tree.md" >}})
+- [Hash 인덱스]({{< ref "/posts/Hash 인덱스.md" >}})

@@ -5,8 +5,8 @@ categories:
 tags:
   - django
 date: 2023-11-22T23:08:32+09:00
-draft: true
-modified: 2023-11-22T23:26:17+09:00
+draft: false
+modified: 2023-11-27T20:27:53+09:00
 ---
 
 ## content

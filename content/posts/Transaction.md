@@ -2,10 +2,10 @@
 title: Transaction
 categories:
   - DB
-tags: []
+tags: 
 date: 2022-10-10T16:37:09+09:00
-draft: true
-modified: 2023-11-22T22:54:02+09:00
+draft: false
+modified: 2023-11-27T21:00:05+09:00
 ---
 
 ## content

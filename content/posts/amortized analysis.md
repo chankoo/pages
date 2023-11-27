@@ -1,9 +1,11 @@
 ---
 title: amortized analysis
-categories: [알고리즘]
-tags: []
+categories:
+  - 알고리즘
+tags: 
 date: 2022-10-17T00:01:04+09:00
-draft: true
+draft: false
+modified: 2023-11-27T20:28:09+09:00
 ---
 
 ## content
