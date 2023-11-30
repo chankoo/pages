@@ -5,9 +5,10 @@ categories:
 tags:
   - gunicorn
   - javascript
+  - 동시성
 date: 2022-10-25T23:23:22+09:00
 draft: false
-modified: 2023-11-27T20:50:22+09:00
+modified: 2023-11-30T15:42:33+09:00
 ---
 
 ## content
@@ -20,9 +21,9 @@ modified: 2023-11-27T20:50:22+09:00
 
 
 ## refs
-- https://deview.kr/2014/session?seq=47
+- [DEVIEW 2014](https://deview.kr/2014/session?seq=47)
 - [[JS] 도대체 이벤트 루프가 뭔가요? - 배하람의 블로그](https://baeharam.netlify.app/posts/javascript/event-loop)
 
 
 ## links
-- [Gunicorn worker types]({{< ref "/posts/Gunicorn worker types.md" >}})
+- [gevent]({{< ref "/posts/gevent.md" >}})

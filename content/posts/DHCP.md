@@ -4,10 +4,9 @@ categories:
   - 네트워크
 tags:
   - IP
-  - http
 date: 2023-11-27T17:31:27+09:00
 draft: false
-modified: 2023-11-27T21:06:49+09:00
+modified: 2023-11-27T21:10:54+09:00
 ---
 
 ## content
