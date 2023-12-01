@@ -1,8 +1,12 @@
 ---
 title: Dynamic Array
-categories: [자료구조]
-tags: [메모리, python]
+categories:
+  - 자료구조
+tags:
+  - 메모리
+  - python
 date: 2022-10-03T00:11:36+09:00
+modified: 2023-12-01T11:04:32+09:00
 ---
 
 ## content
@@ -10,14 +14,11 @@ python 의 list 는 dynamic array이다. 런타임에 element를 추가할때, �
 
 ![](https://enfow.github.io/image/study/python_list_and_dynamic_array.png)
 
-이는 시간 복잡도 계산에 영향을 준다. list 에 요소를 더하는 append 나 insert 연산의 시간 복잡도를 계산할 때 메모리 재할당 시간까지 고려해야 한다는 의미다. 
-
-하지만 
+이는 시간 복잡도 계산에 영향을 준다. list 에 요소를 더하는 append 나 insert 연산의 시간 복잡도를 계산할 때 메모리 재할당 시간까지 고려해야 한다는 의미다. 동적 배열에 요소를 추가할때 메모리 재할당이 필요하다면, O(N) 시간이 필요하다(분할 상환하여 계산한 일반적인 시간 복잡도는 O(1)). 또한 list.pop(k) 역시 k번째 요소를 가져온 뒤 메모리 재할당이 필요하므로 O(N)이다.
 
 ## refs
 - [Python Bulit-in Time Complexity: List · Enfow's Blog](https://enfow.github.io/study/algorithm/2020/12/08/python_bulitin_time_complexity-copy/)
 
 
 ## links
-- [amortized analysis]({{< ref "/posts/amortized analysis.md" >}})
-- 
+- [분할 상환 분석]({{< ref "/posts/분할 상환 분석.md" >}})
