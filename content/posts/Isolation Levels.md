@@ -7,7 +7,7 @@ tags:
   - 동시성
 date: 2022-10-09T12:37:01+09:00
 draft: false
-modified: 2023-11-27T20:51:10+09:00
+modified: 2023-12-02T13:01:59+09:00
 ---
 
 ## content
@@ -17,14 +17,14 @@ DBMS는 다양한 수준의 Isolation Level을 제공하여 ACID의 Isolation �
 - Serializable - Isolation 제약을 지키는 수준으로 트랜잭션을 serial schedule 로 수행하여 다른 트랜잭션의 수행과 겹치는 시간이 없다.
 - Repetable Reads - 반복해서 읽어도 같은 결과를 보여주는 수준으로, 반복 read 도중 커밋이 발생하여 값이 변해도 커밋 전 값을 읽어간다. [Phantom Reads]({{< ref "/posts/Phantom Reads.md" >}}) 는 발생한다.
 - Read Comitted - 커밋된 결과라면 다 읽어버리는 수준
-- Read Uncomiteed - 죄다 읽는 수준
+- Read Uncomiteed - 죄다 읽는 수준. 더티 리드도 발생
 
 
 ![Pasted image 20221010172925.png]({{< ref "/posts/Pasted image 20221010172925.png.md" >}})
 
 
 ## refs
-- https://en.wikipedia.org/wiki/Isolation_(database_systems)
+- [Isolation (database systems) - Wikipedia](https://en.wikipedia.org/wiki/Isolation_(database_systems))
 
 
 ## links

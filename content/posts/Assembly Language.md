@@ -1,8 +1,10 @@
 ---
 title: Assembly Language
-categories: [컴퓨터구조]
+categories:
+  - 컴퓨터구조
 tags: []
 date: 2022-10-09T22:15:44+09:00
+modified: 2023-12-02T13:08:14+09:00
 ---
 
 ## content
@@ -10,9 +12,8 @@ ISA의 명령어를 문자화 시킨 저급 언어이다.  프로그래머가 �
 
 
 ## refs
-- [Fetching Title#d80f](https://it-eldorado.tistory.com/23)
+- [[Chapter 7] Assembly Language - 어셈블리어, 어셈블러](https://it-eldorado.tistory.com/23)
 
 
 ## links
 - [ISA]({{< ref "/posts/ISA.md" >}})
-- 

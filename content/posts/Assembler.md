@@ -1,8 +1,10 @@
 ---
 title: Assembler
-categories: [컴퓨터구조]
+categories:
+  - 컴퓨터구조
 tags: []
 date: 2022-10-09T22:04:11+09:00
+modified: 2023-12-02T13:06:13+09:00
 ---
 
 ## content
@@ -12,7 +14,7 @@ date: 2022-10-09T22:04:11+09:00
 
 
 ## refs
-- [Fetching Title#ykgj](https://it-eldorado.tistory.com/23)
+- [[Chapter 7] Assembly Language - 어셈블리어, 어셈블러](https://it-eldorado.tistory.com/23)
 
 
 ## links

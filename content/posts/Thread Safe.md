@@ -1,8 +1,12 @@
 ---
 title: Thread Safe
-categories: [컴퓨터구조]
-tags: [스레드, 동시성, 함수형프로그래밍]
+categories:
+  - 컴퓨터구조
+tags:
+  - 동시성
+  - 함수형프로그래밍
 date: 2022-10-08T21:07:04+09:00
+modified: 2023-12-02T13:27:57+09:00
 ---
 
 ## content

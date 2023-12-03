@@ -1,8 +1,12 @@
 ---
 title: Container-Presenter 패턴
-categories: [아키텍처]
-tags: [디자인패턴, react]
+categories:
+  - 아키텍처
+tags:
+  - 디자인패턴
+  - react
 date: 2022-10-03T12:37:15+09:00
+modified: 2023-12-02T13:13:14+09:00
 ---
 
 ## content
@@ -19,7 +23,6 @@ aka Smart & Dumb conponents
 
 
 ## refs
-- [Fetching Title#vqbu](https://aroundreact.com/react-best-practices-for-software-design-and-architecture/#Smart_Dumb)
 - [Container/Presentational Pattern](https://www.patterns.dev/posts/presentational-container-pattern/)
 
 

@@ -5,7 +5,7 @@ categories:
 tags:
   - SOLID
 date: 2022-10-06T23:42:10+09:00
-modified: 2023-11-27T20:43:09+09:00
+modified: 2023-12-02T13:02:11+09:00
 ---
 
 ## content

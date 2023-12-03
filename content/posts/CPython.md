@@ -1,8 +1,11 @@
 ---
 title: CPython
-categories: [언어]
-tags: [python]
+categories:
+  - 언어
+tags:
+  - python
 date: 2022-10-03T13:40:56+09:00
+modified: 2023-12-02T13:12:34+09:00
 ---
 
 ## content
@@ -19,4 +22,3 @@ C로 구현한 파이썬 인터프리터 시스템. 파이썬 언어로 쓰인 �
 ## links
 - [인터프리터]({{< ref "/posts/인터프리터.md" >}})
 - [Bytecode]({{< ref "/posts/Bytecode.md" >}})
-- 
