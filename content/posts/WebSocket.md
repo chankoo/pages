@@ -7,7 +7,7 @@ tags:
   - http
 date: 2023-03-30T15:23:12+09:00
 draft: false
-modified: 2023-12-05T21:35:39+09:00
+modified: 2023-12-05T21:38:27+09:00
 ---
 
 ## content
@@ -18,7 +18,7 @@ modified: 2023-12-05T21:35:39+09:00
 
 
 ## refs
-- [../1.permanents/리얼월드 HTTP|리얼월드 HTTP]({{< ref "/posts/../1.permanents/리얼월드 HTTP|리얼월드 HTTP.md" >}})
+- [리얼월드 HTTP]({{< ref "/posts/리얼월드 HTTP.md" >}})
 
 
 ## links
