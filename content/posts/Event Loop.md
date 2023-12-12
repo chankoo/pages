@@ -3,12 +3,12 @@ title: Event Loop
 categories:
   - OS
 tags:
-  - gunicorn
   - javascript
   - 동시성
+  - python
 date: 2022-10-25T23:23:22+09:00
 draft: false
-modified: 2023-11-30T15:42:33+09:00
+modified: 2023-12-07T13:59:00+09:00
 ---
 
 ## content
@@ -27,3 +27,4 @@ modified: 2023-11-30T15:42:33+09:00
 
 ## links
 - [gevent]({{< ref "/posts/gevent.md" >}})
+- [비동기]({{< ref "/posts/비동기.md" >}})
