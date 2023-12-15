@@ -14,7 +14,7 @@ modified: 2023-11-30T14:41:27+09:00
 ## content
 리소스의 캐시 여부를 지정하는 http 응답/요청 헤더. Cache-Control에 부여한 directive에 따라 캐시 사용 전략이 결정된다. Etag나 bfcache 등이 모두 영향받는다.
 
-{{< figure src="/images/Pasted image 20231130142540.png" >}}
+{{ $image := resources.Get "images/Pasted image 20231130142540.png" }}
 
 ## refs
 - [Cache-Control - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)

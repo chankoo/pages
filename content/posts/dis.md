@@ -16,9 +16,9 @@ def hi(x):
 	return x
 ```
 
-{{< figure src="/images/Pasted image 20221009230203.png" >}}
+{{ $image := resources.Get "images/Pasted image 20221009230203.png" }}
 
-{{< figure src="/images/Pasted image 20221009225606.png" >}}
+{{ $image := resources.Get "images/Pasted image 20221009225606.png" }}
 
 위 정의에 따르면, 추상화한 바이트코드를 바이트코드로 바꾸는 것도 어셈블이라 볼 수 있다.
 
