@@ -19,7 +19,7 @@ aka Smart & Dumb conponents
 
 반면 데이터 가져오는 역할을 hook이 점차 대체하며, 굳이 컨테이너 컴포넌트를 두는게 불필요하다는 의견도 늘고있다.
 
-{{ $image := resources.Get "images/Component.png" | resources.Resize "400x" }}
+{{< image src="/images/Component.png" width="400" >}}
 
 
 ## refs

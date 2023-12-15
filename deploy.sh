@@ -11,10 +11,10 @@ do
   tmp_file2="$file.tmp2"
 
   # 너비가 지정된 이미지 링크 처리
-  sed -r 's/!\[\[(.*)\|([0-9]+)\]\]/{{ \$image := resources.Get "images\/\1" | resources.Resize "\2x" }}/g' "$file" > "$tmp_file1"
-
+  sed 's/!\[\[\(.*\)|\(.*\)\]\]/{{< image src="\/images\/\1" width="\2" >}}/g' "$file" > "$tmp_file1"
+  
   # 너비가 지정되지 않은 이미지 링크 처리
-  sed -r 's/!\[\[(.*)\]\]/{{ \$image := resources.Get "images\/\1" }}/g' "$tmp_file1" > "$tmp_file2"
+  sed 's/!\[\[\(.*\)\]\]/{{< image src="\/images\/\1" >}}/g' "$tmp_file1" > "$tmp_file2"
 
   # 일반 텍스트 링크 처리
   sed -r 's/\[\[(.*)\]\]/[\1]({{< ref "\/posts\/\1.md" >}})/g' "$tmp_file2" > "$file"
