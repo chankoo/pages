@@ -8,7 +8,7 @@ cd content/posts
 for file in *.md
 do
   tmp_file="$file.tmp"
-  sed -r 's/\[\[(.*)\]\]/[\1]({{< ref "\/posts\/\1.md" >}})/g' "$file" > "$tmp_file"
+  sed -r 's/!\[\[(.*)\]\]/{{< ref "\/images\/\1" >}}/g; s/\[\[(.*)\]\]/[\1]({{< ref "\/posts\/\1.md" >}})/g' "$file" > "$tmp_file"
 
   if [ -s "$tmp_file" ]; then
     mv "$tmp_file" "$file"

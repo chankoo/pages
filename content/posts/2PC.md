@@ -7,7 +7,7 @@ tags:
   - 분산시스템
 date: 2022-12-06T23:29:16+09:00
 draft: false
-modified: 2023-12-15T14:19:28+09:00
+modified: 2023-12-15T14:22:05+09:00
 ---
 
 ## content
@@ -20,6 +20,7 @@ modified: 2023-12-15T14:19:28+09:00
 
 
 ![2PC](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcrJspK%2FbtqvAgfh88l%2Fm9kBx1Kn5qTQOB0aAjxwh1%2Fimg.png)
+
 ## refs
 - [[Architecture] MSA : SAGA 패턴이란 - Azderica](https://azderica.github.io/01-architecture-msa/)
 - [데이터 중심 애플리케이션 설계]({{< ref "/posts/데이터 중심 애플리케이션 설계.md" >}})

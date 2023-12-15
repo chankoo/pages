@@ -25,7 +25,7 @@ modified: 2023-12-12T16:17:34+09:00
 			- 클라이언트에 응답할 수 있는 Http api 로 고정됨
 
 
-![image 1.png]({{< ref "/posts/image 1.png.md" >}})
+{{< ref "/images/image 1.png" >}}
 
 2. API Gateway Pattern 의 종류
 	1. Edge Gateway(중앙 집중식)
@@ -37,7 +37,7 @@ modified: 2023-12-12T16:17:34+09:00
 			- 속도 제한 (Rate limiting)
 			- Request/response manipulation
 			- Facade routing
-		- ![Pasted image 20230525094854.png|400]({{< ref "/posts/Pasted image 20230525094854.png|400.md" >}})
+		- {{< ref "/images/Pasted image 20230525094854.png|400" >}}
 	2. Two-Tier Gateway(2계층)
 		1. 보안 게이트웨이와 라우팅 게이트웨이로 역할을 나눔. Edge Gateway 단독으로 쓰는 것보다 유연하지만 라우터 하나에 모든 서비스가 물려있는 한계가 있음
 			1. 보안 게이트웨이
@@ -49,7 +49,7 @@ modified: 2023-12-12T16:17:34+09:00
 				- 권한 부여 (Authorization)
 				- 서비스 발견 (Service discovery)
 				- 부하 분산 (Load balancing)
-			- ![Pasted image 20230525095238.png|400]({{< ref "/posts/Pasted image 20230525095238.png|400.md" >}})
+			- {{< ref "/images/Pasted image 20230525095238.png|400" >}}
 	3. Microgateway
 		1. 2계층을 확장하여 서비스마다 전용 게이트웨이를 두는 방식으로, 서비스 간 트래픽을 관리하는데 용이한 구조
 			1. Edge 게이트웨이
@@ -60,10 +60,10 @@ modified: 2023-12-12T16:17:34+09:00
 				- 부하 분산 (Load balancing)
 				- 서비스 발견 (Service discovery)
 				- API별 인증 (Authentication per API)
-		- ![Pasted image 20230525100203.png|400]({{< ref "/posts/Pasted image 20230525100203.png|400.md" >}})
+		- {{< ref "/images/Pasted image 20230525100203.png|400" >}}
 	4. Per-Pod Gateway
 		1. 개별 pod(또는 컨테이너)에 프록시 게이트웨이를 포함하는 형태로 Microgateway를 확장
-		2. ![Pasted image 20230525095658.png|400]({{< ref "/posts/Pasted image 20230525095658.png|400.md" >}})
+		2. {{< ref "/images/Pasted image 20230525095658.png|400" >}}
 	5. Sidecar Gateways and Service Mesh(사이드카 게이트웨이 및 서비스 메시)
 		1. 사이드카 게이트웨이가 ingress와 engress 를 모두 수행하는 형태로 보통 서비스 메시를 통하여 구현된다.
 		2. 사이드카 게이트웨이
@@ -71,7 +71,7 @@ modified: 2023-12-12T16:17:34+09:00
 			- 서비스 검색 통합 (Service discovery integration)
 			- 서비스 간 인증 (Inter‑service authentication)
 			- 권한 부여 (Authorization)
-		1. ![Pasted image 20230525095907.png|400]({{< ref "/posts/Pasted image 20230525095907.png|400.md" >}})
+		1. {{< ref "/images/Pasted image 20230525095907.png|400" >}}
 
 
 

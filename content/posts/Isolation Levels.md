@@ -20,7 +20,7 @@ DBMS는 다양한 수준의 Isolation Level을 제공하여 ACID의 Isolation �
 - Read Uncomiteed - 죄다 읽는 수준. 더티 리드도 발생
 
 
-![Pasted image 20221010172925.png]({{< ref "/posts/Pasted image 20221010172925.png.md" >}})
+{{< ref "/images/Pasted image 20221010172925.png" >}}
 
 
 ## refs
