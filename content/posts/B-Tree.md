@@ -13,7 +13,7 @@ modified: 2023-11-27T20:28:33+09:00
 BST(Binary Search Tree)를 일반화한 자료구조로 2개 이상의 자식 노드를 갖는 Balanced Tree이다.
 
 - B Tree 류 자료구조는 DB 인덱스로 많이 쓰인다.
-{{< ref "/images/Pasted image 20231121190007.png" >}}
+{{< figure src="/images/Pasted image 20231121190007.png" >}}
 	- (Balanced BST인)AVL Tree, RB Tree에 비해 자식 노드 개수가 많아 디스크 접근 수가 적음
 	- 블록 단위로 메모리에 적재하는 OS 특성도 효율적으로 활용
 
