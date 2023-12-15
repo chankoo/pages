@@ -7,14 +7,20 @@ cd content/posts
 
 for file in *.md
 do
-  tmp_file="$file.tmp"
-  sed -r 's/!\[\[(.*)\]\]/{{ \$image := resources.Get "images\/\1" }}/g; s/\[\[(.*)\]\]/[\1]({{< ref "\/posts\/\1.md" >}})/g' "$file" > "$tmp_file"
+  tmp_file1="$file.tmp1"
+  tmp_file2="$file.tmp2"
 
-  if [ -s "$tmp_file" ]; then
-    mv "$tmp_file" "$file"
-  else
-    rm "$tmp_file"
-  fi
+  # 너비가 지정된 이미지 링크 처리
+  sed -r 's/!\[\[(.*)\|([0-9]+)\]\]/{{ \$image := resources.Get "images\/\1" | resources.Resize "\2x" }}/g' "$file" > "$tmp_file1"
+
+  # 너비가 지정되지 않은 이미지 링크 처리
+  sed -r 's/!\[\[(.*)\]\]/{{ \$image := resources.Get "images\/\1" }}/g' "$tmp_file1" > "$tmp_file2"
+
+  # 일반 텍스트 링크 처리
+  sed -r 's/\[\[(.*)\]\]/[\1]({{< ref "\/posts\/\1.md" >}})/g' "$tmp_file2" > "$file"
+
+  # 임시 파일 삭제
+  rm "$tmp_file1" "$tmp_file2"
 done
 
 # Build the project.
