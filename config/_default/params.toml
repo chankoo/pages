@@ -1,0 +1,5 @@
+mainSections = ["posts", "docs", "blogs"]
+mobileNavigation = "left" # Mobile nav menu will open to the left of the screen.
+numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
+enforceLightMode = true # Force the site to always load in light mode.
+enableSearch = true

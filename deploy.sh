@@ -26,7 +26,7 @@ done
 # Build the project.
 # hugo -t <여러분의 테마>
 cd ../..
-hugo -t hugo-clarity
+hugo -t hugo-clarity --logLevel info
 
 # Go To Public folder, sub module commit
 cd public

@@ -1,0 +1,26 @@
+baseurl = "https://chankoo.github.io/"  # Include trailing slash
+title = "chankoo"
+author = "chankoo" 
+
+# copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+# canonifyurls = true
+
+paginate = 50
+theme = "hugo-clarity"
+disqusShortname = ""
+
+DefaultContentLanguage = "en"
+# [languages]
+# config/_default/languages.toml
+
+# [menus]
+# config/_default/menus/menu.xx.toml
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
