@@ -7,7 +7,7 @@ tags:
   - 동시성
 date: 2022-10-09T12:37:01+09:00
 draft: false
-modified: 2023-12-02T13:01:59+09:00
+modified: 2023-12-20T17:46:11+09:00
 ---
 
 ## content
@@ -25,10 +25,10 @@ DBMS는 다양한 수준의 Isolation Level을 제공하여 ACID의 Isolation �
 
 ## refs
 - [Isolation (database systems) - Wikipedia](https://en.wikipedia.org/wiki/Isolation_(database_systems))
+- [Lock으로 이해하는 Transaction의 Isolation Level](https://suhwan.dev/2019/06/09/transaction-isolation-level-and-lock/)
 
 
 ## links
 - [Transaction]({{< ref "/posts/Transaction.md" >}})
-- [Serializability]({{< ref "/posts/Serializability.md" >}})
+- [직렬성]({{< ref "/posts/직렬성.md" >}})
 - [Phantom Reads]({{< ref "/posts/Phantom Reads.md" >}})
-- [스레드와 잠금장치 발표자료.pdf](obsidian://open?vault=chankoo&file=Media%2F7%EA%B0%80%EC%A7%80%20%EB%8F%99%EC%8B%9C%EC%84%B1%20%EB%AA%A8%EB%8D%B8%20-%20%EC%8A%A4%EB%A0%88%EB%93%9C%EC%99%80%20%EC%9E%A0%EA%B8%88%EC%9E%A5%EC%B9%98.pdf)

@@ -6,17 +6,11 @@ tags:
   - SOLID
 date: 2022-10-27T22:13:29+09:00
 draft: false
-modified: 2023-11-27T20:30:36+09:00
+modified: 2023-12-20T13:43:52+09:00
 ---
 
 ## content
-모듈 수준의 소프트웨어 설계 원칙.
-
-SRP
-OCP
-LSP
-ISP
-DIP
+모듈 수준의 소프트웨어 설계 원칙
 
 
 ## refs
@@ -25,3 +19,8 @@ DIP
 
 ## links
 - [모듈]({{< ref "/posts/모듈.md" >}})
+- [SRP]({{< ref "/posts/SRP.md" >}})
+- [OCP]({{< ref "/posts/OCP.md" >}})
+- [LSP]({{< ref "/posts/LSP.md" >}})
+- [ISP]({{< ref "/posts/ISP.md" >}})
+- [DIP]({{< ref "/posts/DIP.md" >}})

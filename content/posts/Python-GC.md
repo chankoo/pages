@@ -4,9 +4,8 @@ categories:
   - 언어
 tags:
   - python
-  - 메모리
 date: 2022-10-03T16:08:52+09:00
-modified: 2023-11-27T20:58:23+09:00
+modified: 2023-12-20T13:59:44+09:00
 ---
 
 ## content
@@ -15,8 +14,7 @@ modified: 2023-11-27T20:58:23+09:00
 1. PyObject의 ref count가 0
 2. 순환 참조가 발생했고 그 외의 참조는 없음
 
-
-	>예제
+	> 2. 예제
 	> 1. l = []
 	> 2. l.append(l)
 	> 3. del l

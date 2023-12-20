@@ -1,8 +1,13 @@
 ---
 title: MVVM
-categories: [아키텍처]
-tags: [디자인패턴, frontend, iOS]
+categories:
+  - 아키텍처
+tags:
+  - 디자인패턴
+  - frontend
+  - iOS
 date: 2022-10-03T13:02:32+09:00
+modified: 2023-12-20T17:31:44+09:00
 ---
 
 ## content
@@ -24,5 +29,4 @@ MVC(UIKit) 를 이용하던 iOS 개발의 대세 흐름이 MVVM(SwiftUI)을 이�
 
 
 ## links
-- [Reactive Programming]({{< ref "/posts/Reactive Programming.md" >}})
-- [커맨드 패턴]({{< ref "/posts/커맨드 패턴.md" >}})
+- 

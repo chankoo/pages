@@ -6,8 +6,8 @@ tags:
   - python
   - 동시성
 date: 2022-10-03T15:57:13+09:00
-draft: true
-modified: 2023-12-02T13:27:44+09:00
+draft: false
+modified: 2023-12-20T17:50:52+09:00
 ---
 
 ## content
@@ -33,6 +33,7 @@ sys.getswitchinterval()  # default 5ms
 ## refs
 - [왜 Python에는 GIL이 있는가](https://dgkim5360.tistory.com/entry/understanding-the-global-interpreter-lock-of-cpython)
 - [Gunicorn vs Python GIL. What is the Python GIL, how it works… | by Luis Sena | Medium](https://luis-sena.medium.com/gunicorn-vs-python-gil-221e673d692)
+- [7가지 동시성 모델]({{< ref "/posts/7가지 동시성 모델.md" >}})
 
 
 ## links
@@ -40,6 +41,5 @@ sys.getswitchinterval()  # default 5ms
 - [PyObject]({{< ref "/posts/PyObject.md" >}})
 - [Race Condition]({{< ref "/posts/Race Condition.md" >}})
 - [CPython]({{< ref "/posts/CPython.md" >}})
-- [스레드와 잠금장치 발표자료.pdf](obsidian://open?vault=chankoo&file=Media%2F7%EA%B0%80%EC%A7%80%20%EB%8F%99%EC%8B%9C%EC%84%B1%20%EB%AA%A8%EB%8D%B8%20-%20%EC%8A%A4%EB%A0%88%EB%93%9C%EC%99%80%20%EC%9E%A0%EA%B8%88%EC%9E%A5%EC%B9%98.pdf)
 - [Bytecode]({{< ref "/posts/Bytecode.md" >}})
 - [Thread Safe]({{< ref "/posts/Thread Safe.md" >}})

@@ -5,10 +5,9 @@ categories:
 tags:
   - CPU
   - cache
-  - 메모리
 date: 2022-10-16T22:54:01+09:00
 draft: false
-modified: 2023-11-30T14:13:09+09:00
+modified: 2023-12-20T13:58:41+09:00
 ---
 
 ## content

@@ -1,7 +1,16 @@
 [[main]]
-  name = "Archives"
-  url = "post/rich-content/"
+  name = "시리즈"
+  url = "series/"
   weight = -110
+[[main]]
+  parent = "시리즈"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/"
+[[main]]
+  parent = "시리즈"
+  name = "Twitter"
+  url = "https://twitter.com/"
+
 
 # social menu links
 [[social]]

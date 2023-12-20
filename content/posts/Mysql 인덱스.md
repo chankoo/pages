@@ -6,7 +6,7 @@ tags:
   - mysql
 date: 2023-11-21T19:20:55+09:00
 draft: false
-modified: 2023-11-27T20:52:52+09:00
+modified: 2023-12-20T17:33:27+09:00
 ---
 
 ## content
@@ -21,6 +21,5 @@ mysql의 InnoDB는 아래와 같은 구조로 인덱스를 생성한다. 해당 
 
 ## links
 - [B-Tree]({{< ref "/posts/B-Tree.md" >}})
-- [INNODB]({{< ref "/posts/INNODB.md" >}})
 - [Hash 인덱스]({{< ref "/posts/Hash 인덱스.md" >}})
 - [전문 검색 인덱스]({{< ref "/posts/전문 검색 인덱스.md" >}})

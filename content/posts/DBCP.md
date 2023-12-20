@@ -5,10 +5,9 @@ categories:
 tags:
   - mysql
   - django
-  - gunicorn
 date: 2023-11-22T12:01:24+09:00
 draft: false
-modified: 2023-11-27T20:29:04+09:00
+modified: 2023-12-20T22:06:45+09:00
 ---
 
 ## content
@@ -35,4 +34,4 @@ DB Connection Pool. DB와의 커넥션 풀을 어플리케이션 단에 미리 �
 
 
 ## links
-- [Gunicorn worker types]({{< ref "/posts/Gunicorn worker types.md" >}})
+- [gunicorn]({{< ref "/posts/gunicorn.md" >}})

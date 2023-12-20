@@ -1,8 +1,12 @@
 ---
 title: why numpy array
-categories: [언어]
-tags: [python, numpy, 메모리]
+categories:
+  - 언어
+tags:
+  - python
+  - numpy
 date: 2022-10-03T16:17:54+09:00
+modified: 2023-12-20T13:58:50+09:00
 ---
 
 ## content
