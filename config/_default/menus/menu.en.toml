@@ -4,13 +4,8 @@
   weight = -110
 [[main]]
   parent = "시리즈"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
-[[main]]
-  parent = "시리즈"
-  name = "Twitter"
-  url = "https://twitter.com/"
-
+  name = "대용량 트래픽 때려맞기"
+  url = "series/대용량-트래픽-때려맞기/"
 
 # social menu links
 [[social]]

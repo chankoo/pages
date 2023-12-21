@@ -7,10 +7,8 @@ tags:
 date: 2023-12-20T14:01:38+09:00
 draft: false
 featured: true
-modified: 2023-12-20T14:08:22+09:00
+modified: 2023-12-21T22:26:48+09:00
 ---
-
-## content
 
 ###  Domain과 Model
 - Domain은 사용자가 SW를 사용하는 대상 영역을 말한다
