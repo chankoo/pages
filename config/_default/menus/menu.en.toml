@@ -1,11 +1,3 @@
-[[main]]
-  name = "시리즈"
-  url = "series/"
-  weight = -110
-[[main]]
-  parent = "시리즈"
-  name = "대용량 트래픽 때려맞기"
-  url = "series/대용량-트래픽-때려맞기/"
 
 # social menu links
 [[social]]
