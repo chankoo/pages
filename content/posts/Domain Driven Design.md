@@ -6,8 +6,8 @@ tags:
   - 책
 date: 2023-12-20T14:01:38+09:00
 draft: false
-featured: true
-modified: 2023-12-21T22:26:48+09:00
+featured: false
+modified: 2023-12-29T03:06:06+09:00
 ---
 
 ###  Domain과 Model

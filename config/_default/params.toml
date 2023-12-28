@@ -9,6 +9,6 @@ showRelatedInArticle = true
 showRelatedInSidebar = true
 numberOfRecentPosts = 6
 pinFeatured = true
-numberOfFeaturedPosts = 6
+numberOfFeaturedPosts = 10
 
 dateFormat = "2006-01-02"

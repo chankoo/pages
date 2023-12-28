@@ -1,3 +1,12 @@
+[[main]]
+  name = "시리즈"
+  url = "series/"
+  weight = -110
+[[main]]
+  parent = "시리즈"
+  name = "시스템 디자인 연습"
+  url = "series/시스템-디자인-연습/"
+
 
 # social menu links
 [[social]]

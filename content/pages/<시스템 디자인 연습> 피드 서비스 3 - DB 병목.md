@@ -9,8 +9,8 @@ tags:
   - mysql
 date: 2023-11-26T13:54:34+09:00
 draft: false
-modified: 2023-12-29T02:53:29+09:00
-featured: false
+modified: 2023-12-29T03:05:21+09:00
+featured: true
 series: 시스템 디자인 연습
 ---
 ### 작업
