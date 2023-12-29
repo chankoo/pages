@@ -17,9 +17,9 @@ DefaultContentLanguage = "en"
 # config/_default/menus/menu.xx.toml
 
 [taxonomies]
+series = "series"
 category = "categories"
 tag = "tags"
-series = "series"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
