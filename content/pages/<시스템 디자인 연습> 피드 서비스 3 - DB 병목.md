@@ -9,25 +9,26 @@ tags:
   - mysql
 date: 2023-11-26T13:54:34+09:00
 draft: false
-modified: 2023-12-29T03:05:21+09:00
+modified: 2023-12-29T11:02:46+09:00
 featured: true
 series: 시스템 디자인 연습
 ---
 ### 작업
-이번에는 피드 서비스에서 주된 이슈인 Fanout 시나리오를 실험했다. 유저가 게시글을 작성하면 해당 글이 500명의 친구 피드로 전송되는 상황이다. 한 유저 당 501개의 create 요청을 발생시키는 고부하 작업이다.
+이번에는 피드 서비스에서 주된 이슈인 Fanout 시나리오를 실험했다. 유저가 게시글을 작성하면 해당 글을 500명의 친구 피드로 전송하는 것이다. 이는 한 유저 당 501개의 create 요청을 발생시키는 고부하 작업이다.
 
 ### 목표
-500 RPS(약 250,000 QPS) 를 감당할 수 확인한다. 가상 사용자(VU) 500명을 설정하고, 1초 간격으로 3분 동안 요청을 지속했다.
+500 RPS(약 250,000 QPS) 를 견디는 시스템을 만든다. 가상 사용자(VU) 500명을 설정하고, 1초 간격으로 3분 동안 요청을 지속했다.
 
 ### 결과 요약
 1. DB의 옵션을 이해하고 우선적으로 DB 성능을 튜닝하는 것이 중요하다.
 2. 그래도 DB가 병목일 땐 캐시와 비동기 작업을 적극적으로 활용하자.
 
 ### 환경
-> 서버: Django + gunicorn
-DB: SQLite or Mysql or Redis
+> AWS  
+> 서버: Django + gunicorn  
+DB: SQLite or Mysql or Redis  
 인프라: Docker Compose or (AWS ECS Fargate + Docker)  
-테스팅: K6 + Grafana + InfluxDB
+테스팅: K6 + Grafana + InfluxDB  
 
 ### 결과 상세
 vCPU 8개를 사용하여 테스트했을 때, 초당 1개 요청도 처리하지 못하는 저조한 성능을 보였다. 태스크 CPU와 메모리 사용량이 3%~5%로 낮아 DB 병목이 의심되었다. 기본적으로 Django에 설정된 SQLite는 높은 수준의 동시성을 요구하는 작업에 적합하지 않았다.
@@ -36,15 +37,15 @@ vCPU 8개를 사용하여 테스트했을 때, 초당 1개 요청도 처리하�
 
 {{< image src="/images/283491128-579dc6b7-6735-4818-b798-eba8947669ee.png" >}}
 
-> AWS ECS Fargate 설정
-태스크: 2
-태스크 CPU: 4 vCPU
-태스크 메모리: 8 GB
+	[AWS ECS Fargate 설정]
+	태스크: 2
+	태스크 CPU: 4 vCPU
+	태스크 메모리: 8 GB
 
-> 결과
-> checks.........................: 99.19% 
-> data_received..................: 122 kB 635 B/s
-> http_reqs......................: 124    0.646009/s
+> 결과  
+> checks.........................: 99.19%  
+> data_received..................: 122 kB 635 B/s  
+> http_reqs......................: 124    0.646009/s  
 > iteration_duration.............: avg=14.98s  p(95)=29.45s
 
 
@@ -52,16 +53,16 @@ DB를 MySQL로 변경하고 AWS EC2에서 도커 컨테이너로 DB 서버를 �
 
 {{< image src="/images/283764373-b3286a7e-cc7e-40a3-aec3-76f2fdb5ffdb.png" >}}
 
-> AWS EC2 - Mysql container
-인스턴스 유형: t4g.medium(cpu 2 | memory 4GiB | EBS 버스트 대역폭 2,085 Mbps)
-innodb_buffer_pool_size = 128M(default)
-innodb_flush_log_at_trx_commit = 1(default)
-max_connections = 150(default)
+	[AWS EC2 - Mysql container]
+	인스턴스 유형: t4g.medium(cpu 2 | memory 4GiB | EBS 버스트 대역폭 2,085 Mbps)
+	innodb_buffer_pool_size = 128M(default)
+	innodb_flush_log_at_trx_commit = 1(default)
+	max_connections = 150(default)
 
-> 결과
-> checks.........................: 15.48%
-> data_received..................: 5.1 GB 27 MB/s
-> http_reqs......................: 19611  104.708861/s
+> 결과  
+> checks.........................: 15.48%  
+> data_received..................: 5.1 GB 27 MB/s  
+> http_reqs......................: 19611  104.708861/s  
 > iteration_duration.............: avg=4.67s   p(95)=14.95s
 
 
@@ -71,16 +72,16 @@ max_connections = 150(default)
 
 {{< image src="/images/284218236-788a2fc8-7306-4fac-88eb-7676207c129e.png" >}}
 
-> AWS EC2 - Mysql container
-인스턴스 유형: t4g.medium(cpu 2 | memory 4GiB | EBS 버스트 대역폭 2,085 Mbps)
-innodb_buffer_pool_size = 2048M
-innodb_flush_log_at_trx_commit = 2
-max_connections = 1000
+	[AWS EC2 - Mysql container]
+	인스턴스 유형: t4g.medium(cpu 2 | memory 4GiB | EBS 버스트 대역폭 2,085 Mbps)
+	innodb_buffer_pool_size = 2048M
+	innodb_flush_log_at_trx_commit = 2
+	max_connections = 1000
 
-> 결과
-> checks.........................: 99.03% 
-> data_received..................: 2.3 MB 11 kB/s
-> http_reqs......................: 2376   11.442402/s
+> 결과  
+> checks.........................: 99.03%  
+> data_received..................: 2.3 MB 11 kB/s  
+> http_reqs......................: 2376   11.442402/s  
 > iteration_duration.............: avg=40.92s  p(95)=58.12s
 
 
@@ -94,21 +95,21 @@ max_connections = 1000
 
 {{< image src="/images/285499893-3a0f2d1d-1847-4905-a6d7-a763220dd4c4.png" >}}
 
-> AWS ECS Fargate (피드 서비스)
-태스크: 4
-태스크 CPU | 메모리: 2 vCPU | 4 GB
+	[AWS ECS Fargate (피드 서비스)]
+	태스크: 4
+	태스크 CPU | 메모리: 2 vCPU | 4 GB
+	
+	[AWS ECS Fargate (캐시 저장 태스크)]
+	태스크: 2
+	태스크 CPU | 메모리: 2 vCPU | 4 GB
+	
+	[AWS Elasticache - Redis]
+	cache.t4g.medium
 
-> AWS ECS Fargate (캐시 저장 태스크)
-태스크: 2
-태스크 CPU | 메모리: 2 vCPU | 4 GB
-
-> AWS Elasticache - Redis
-cache.t4g.medium
-
-> 결과
-> checks.........................: 99.96% 
-> data_received..................: 19 MB  305 kB/s
-> http_reqs......................: 18993  308.319286/s
+> 결과  
+> checks.........................: 99.96%   
+> data_received..................: 19 MB  305 kB/s  
+> http_reqs......................: 18993  308.319286/s  
 > iteration_duration.............: avg=1.6s  p(95)=4.78s
 
 
