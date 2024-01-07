@@ -4,12 +4,11 @@ categories:
   - 백엔드
 tags:
   - 부하테스트
-  - django
-  - aws
   - mysql
+  - 시스템디자인
 date: 2023-11-26T13:54:34+09:00
 draft: false
-modified: 2023-12-29T11:02:46+09:00
+modified: 2024-01-08T02:18:18+09:00
 featured: true
 series: 시스템 디자인 연습
 ---
