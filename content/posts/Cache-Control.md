@@ -8,10 +8,8 @@ tags:
   - 브라우저
 date: 2023-11-30T14:18:34+09:00
 draft: false
-modified: 2023-12-16T11:14:25+09:00
+modified: 2024-01-09T11:11:26+09:00
 ---
-
-## content
 리소스의 캐시 여부를 지정하는 http 응답/요청 헤더. Cache-Control에 부여한 directive에 따라 캐시 사용 전략이 결정된다. Etag나 bfcache 등이 모두 영향받는다.
 
 - private - only cached in client

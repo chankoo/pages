@@ -5,10 +5,8 @@ categories:
 tags:
   - python
 date: 2022-10-03T13:40:56+09:00
-modified: 2023-12-02T13:12:34+09:00
+modified: 2024-01-09T10:19:20+09:00
 ---
-
-## content
 C로 구현한 파이썬 인터프리터 시스템. 파이썬 언어로 쓰인 스크립트를 바이트코드(.pyc, __pycache__)로 컴파일한 후, 인터프리터로 실행한다. 
 
 ![](https://insightbookblog.files.wordpress.com/2022/09/cpython1.png?w=612&zoom=2)

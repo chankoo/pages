@@ -7,10 +7,8 @@ tags:
   - 동시성
 date: 2022-10-09T12:34:05+09:00
 draft: false
-modified: 2023-12-20T22:31:16+09:00
+modified: 2024-01-09T10:18:19+09:00
 ---
-
-## content
 UNIX 용 WSGI 서버이다.
 
 파이썬 어플리케이션을 서빙하는 worker 를 fork하는데, worker 타입은 다음과 같다.

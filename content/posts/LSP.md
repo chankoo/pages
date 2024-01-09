@@ -6,10 +6,8 @@ tags:
   - SOLID
 date: 2022-10-30T17:51:17+09:00
 draft: false
-modified: 2023-11-27T20:38:52+09:00
+modified: 2024-01-09T14:16:34+09:00
 ---
-
-## content
 리스코프 치환 원칙; Liskov Subsitution Principle
 상위 타입 객체는 하위 타입 객체로 별도 조작 없이 치환 가능해야한다.
 

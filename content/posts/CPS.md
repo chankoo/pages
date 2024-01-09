@@ -7,10 +7,8 @@ tags:
   - 함수형프로그래밍
 date: 2023-11-30T15:43:19+09:00
 draft: false
-modified: 2023-11-30T17:08:58+09:00
+modified: 2024-01-09T13:47:28+09:00
 ---
-
-## content
 Continuation Passing Style. 말그대로 Continuation을 전달하는 방식으로 프로그래밍하는 것을 말한다.
 
 이는 CPS 함수를 정의할 때 특정한 작업(ex. 콜백 함수) 을 명시적 인자로 받게되는데, CPS 함수는 해당 함수의 작업이 끝난 후 인자로 받은 작업을 수행하게 된다. Continuation이 CPS 함수에 있다가 인자로 받은 작업으로 넘어가는 것이다.

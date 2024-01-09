@@ -5,10 +5,8 @@ categories:
 tags:
   - python
 date: 2022-10-03T16:08:52+09:00
-modified: 2023-12-20T13:59:44+09:00
+modified: 2024-01-09T10:06:48+09:00
 ---
-
-## content
 파이썬(CPython)에서는 아래 두가지 객체에 대해 가비지 컬렉션을 실행한다.
 
 1. PyObject의 ref count가 0

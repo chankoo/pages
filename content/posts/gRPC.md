@@ -7,10 +7,8 @@ tags:
   - api
 date: 2022-11-29T19:33:00+09:00
 draft: false
-modified: 2023-12-12T16:18:00+09:00
+modified: 2024-01-09T11:33:04+09:00
 ---
-
-## content
 google에서 개발한 RPC(Remote Procedure Call) 프레임워크.
 
 기존 RPC처럼, 네트워크 통신이 필요한 요청을 로컬에서 호출하는 것처럼 도와주는 프로토콜이다. HTTP/2 를 사용하며 프로토콜 버퍼(ProtoBuf)를 이용해 통신 효율을 높이는 특징이 있다.

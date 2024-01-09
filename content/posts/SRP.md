@@ -6,10 +6,8 @@ tags:
   - SOLID
 date: 2022-10-27T22:10:27+09:00
 draft: false
-modified: 2023-11-27T20:33:15+09:00
+modified: 2024-01-09T14:04:26+09:00
 ---
-
-## content
 단일 책임 원칙 - Single Responsibility Principle
 모듈은 한 액터(사용자, 이해관계자)만 책임진다. 모듈을 변경한다면 그 이유는 반드시 한 액터 때문이어야 한다.
 

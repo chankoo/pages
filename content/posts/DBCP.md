@@ -7,10 +7,8 @@ tags:
   - django
 date: 2023-11-22T12:01:24+09:00
 draft: false
-modified: 2023-12-20T22:06:45+09:00
+modified: 2024-01-09T12:18:45+09:00
 ---
-
-## content
 DB Connection Pool. DB와의 커넥션 풀을 어플리케이션 단에 미리 만들어두는 것이다. DB와 커넥션을 맺고 끊기 위해 매번 TCP 통신하는 비용을 줄인다.
 
 - mysql 기준으로 성능에 중요한 설정

@@ -5,10 +5,8 @@ categories:
 tags: 
 date: 2023-11-21T19:33:43+09:00
 draft: false
-modified: 2023-11-27T20:51:43+09:00
+modified: 2024-01-09T12:18:11+09:00
 ---
-
-## content
 Log Structured Merge Tree는 로그성 데이터 색인을 위해 고안된 자료구조로, 정렬된 키-값 데이터인 SS테이블(Sorted String Table) 형식으로 디스크에 데이터를 저장한다.
 
 

@@ -1,11 +1,11 @@
 ---
 title: DeadLock
-categories: [OS]
+categories:
+  - OS
 tags: []
 date: 2022-10-09T00:11:12+09:00
+modified: 2024-01-09T14:32:20+09:00
 ---
-
-## content
 교착 상태
 한정된 자원을 공유하는 작업들이 서로의 종료를 기다리며 끝없이 대치하는 상태
 

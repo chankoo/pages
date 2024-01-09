@@ -1,11 +1,12 @@
 ---
 title: ISA
-categories: [컴퓨터구조]
-tags: [CPU]
+categories:
+  - 컴퓨터구조
+tags:
+  - CPU
 date: 2022-10-09T22:22:35+09:00
+modified: 2024-01-09T13:57:01+09:00
 ---
-
-## content
 명령어 집합 구조(Instruction Set Architecture)
 CPU가 이해할 수 있는 기계어 명령어 집합을 의미한다. CPU 마다 비트 길이와 코드가 다르다. 
 

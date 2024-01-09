@@ -6,10 +6,8 @@ tags:
   - MSA
 date: 2022-12-12T23:09:46+09:00
 draft: false
-modified: 2023-12-02T13:46:17+09:00
+modified: 2024-01-09T12:40:00+09:00
 ---
-
-## content
 Command와 Query를 다른 것으로 보고 명시적으로 분리하는 패턴. 
 OOP 관점에서 Command를 담당하는 객체와, Query를 담당하는 객체의 책임을 분리하는 것으로 이해하면된다.
 

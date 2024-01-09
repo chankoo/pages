@@ -7,10 +7,8 @@ tags:
   - python
 date: 2023-11-28T15:55:32+09:00
 draft: false
-modified: 2023-12-20T22:35:38+09:00
+modified: 2024-01-09T10:18:27+09:00
 ---
-
-## content
 코루틴 기반의 파이썬 라이브러리로 고성능 I/O를 위한 동시성을 지원한다.
 
 greenlet 이라는 경량 스레드(코루틴)와 event loop를 이용하여 넌블러킹 & 비동기 I/O를 지원한다. monkey patching을 이용해 표준 라이브러리의 구현을 gevent의 구현으로 바꿔치기하는 방식으로 동작한다.

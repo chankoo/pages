@@ -7,10 +7,8 @@ tags:
   - python
 date: 2022-10-11T21:00:21+09:00
 draft: false
-modified: 2023-12-20T22:10:24+09:00
+modified: 2024-01-09T10:18:08+09:00
 ---
-
-## content
 Asynchronous Server Gateway Interface. 
 파이썬 웹 애플리케이션과 웹 서버의 공통 인터페이스를 기술한 프로토콜. 
 

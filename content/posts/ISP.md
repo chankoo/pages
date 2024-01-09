@@ -6,10 +6,8 @@ tags:
   - SOLID
 date: 2022-10-30T19:08:11+09:00
 draft: false
-modified: 2023-11-27T20:40:38+09:00
+modified: 2024-01-09T14:16:46+09:00
 ---
-
-## content
 인터페이스 분리 원칙; Interface Separation Principle
 인터페이스를 분리하여, 요소가 사용하는 인터페이스에만 의존하도록 설계해야한다.
 

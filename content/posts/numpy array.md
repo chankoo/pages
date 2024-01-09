@@ -5,10 +5,8 @@ categories:
 tags:
   - python
 date: 2022-10-03T16:17:54+09:00
-modified: 2023-12-22T12:36:15+09:00
+modified: 2024-01-09T10:18:56+09:00
 ---
-
-## content
 파이썬의 list 보다 np array가 
 1) 더 빠르다 
 	1. element로 PyObject 대신 value를 들고 있어 직접 접근할 수 있다.

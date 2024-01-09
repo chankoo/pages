@@ -8,10 +8,8 @@ tags:
   - 브라우저
 date: 2023-11-29T21:32:15+09:00
 draft: false
-modified: 2023-11-30T23:25:21+09:00
+modified: 2024-01-09T12:29:23+09:00
 ---
-
-## content
 Cross-Origin Resource Sharing. 출처가 다른(Cross-Origin) 요청에 대해 리소스를 내려 줄 것인지 판단하는 정책이다. 
 
 - 요청 헤더 Origin에 출처가 담긴다.

@@ -6,10 +6,8 @@ tags:
   - SOLID
 date: 2022-10-28T00:36:16+09:00
 draft: false
-modified: 2023-11-27T20:33:52+09:00
+modified: 2024-01-09T14:14:42+09:00
 ---
-
-## content
 개방-폐쇄 원칙; Open Close Principle
 소프트웨어 요소는 확장에는 open, 수정에는 close여야 한다. 수정 보다 비용이 적은 확장으로 소프트웨어를 수정해야한다.
 

@@ -6,10 +6,8 @@ tags:
   - TCP
 date: 2023-12-05T20:08:04+09:00
 draft: false
-modified: 2023-12-05T21:35:15+09:00
+modified: 2024-01-09T11:09:01+09:00
 ---
-
-## content
 Transmission Control Protocol. TCP/IP 스택 전송 계층 프로토콜로 소켓 간 신뢰할 수 있는 통신을 보장한다.
 
 - 프로세스와 프로세스(엄밀히는 소켓과 소켓)를 잇는 논리적인 개념의 **point-to-point** 통신

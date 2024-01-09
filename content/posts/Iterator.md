@@ -9,10 +9,8 @@ tags:
   - java
 date: 2022-10-11T23:36:52+09:00
 draft: false
-modified: 2023-12-20T17:48:04+09:00
+modified: 2024-01-09T10:09:48+09:00
 ---
-
-## content
 특정 집합 객체 요소에 순차적으로 접근 가능하도록 구현해놓은 객체. Iterator 패턴을 따라서 내부를 노출하지 않고 집합 객체의 구현에 종속되지 않아야한다.
 
 Iterator 를 제공하는 객체는 Iterator Protocol 을 따랐다고 표현하는데, 이는 언어마다 상이하다. 에를 들어 javascript 에선 Iteration Protocol 하위에 Iteration Protocol 과 Iterator Protocol이 존재한다.

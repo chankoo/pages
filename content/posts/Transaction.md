@@ -5,10 +5,8 @@ categories:
 tags: 
 date: 2022-10-10T16:37:09+09:00
 draft: false
-modified: 2023-11-27T21:00:05+09:00
+modified: 2024-01-09T12:04:31+09:00
 ---
-
-## content
 DB에서 데이터를 조작하는 논리적 작업 단위.
 이론적으로 Transaction은 ACID해야한다. 
 

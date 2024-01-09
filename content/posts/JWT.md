@@ -8,10 +8,8 @@ tags:
   - 인증
 date: 2022-11-19T21:38:05+09:00
 draft: false
-modified: 2023-11-28T22:52:59+09:00
+modified: 2024-01-09T10:47:39+09:00
 ---
-
-## content
 JSON Web Token. 사용자의 정보를 Json에 담아 보내는 형식의 웹 토큰이다.
 
 Header / Payload / Signature 로 나뉘며, base64 인코딩을 통해 url-safe한 xxx.yyy.zzz 형태로 표현한다. Header에는 Signature 에 서명한 알고리즘 정보를 담는다.  Payload에는 실제 사용자 정보를 Json 형태로 담으며 추가에 열려있다. Signature는 비대칭키 방식을 사용하여 header와 payload가 변경 안되었음을 보증한다.

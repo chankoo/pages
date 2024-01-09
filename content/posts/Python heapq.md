@@ -6,10 +6,8 @@ tags:
   - python
 date: 2022-11-18T15:42:48+09:00
 draft: false
-modified: 2023-12-02T13:52:07+09:00
+modified: 2024-01-09T09:42:35+09:00
 ---
-
-## content
 heap을 이용하는 q의 구현을 제공하는 모듈
 
 ```

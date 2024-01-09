@@ -1,11 +1,13 @@
 ---
 title: IOC
-categories: [아키텍처]
-tags: [디자인패턴, spring]
+categories:
+  - 아키텍처
+tags:
+  - 디자인패턴
+  - spring
 date: 2022-10-06T22:45:02+09:00
+modified: 2024-01-09T14:31:09+09:00
 ---
-
-## content
 Inversion Of Control(제어 역전)
 클라이언트(프로그래머)가 직접 사용할 의존성을 제어하는 상황(일반적, 절차적) -> 누군가(프레임워크)가 의존성을 정해주는(DI, DIP 등으로) 상황(역전)
 
