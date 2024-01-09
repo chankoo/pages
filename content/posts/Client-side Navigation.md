@@ -19,4 +19,4 @@ a 태그를 사용한 전통적인 라우팅과 달리, full page reload 를 (�
 
 
 ## links
-- [Client-Side Routing]({{< ref "/posts/Client-Side Routing.md" >}})
+- 
