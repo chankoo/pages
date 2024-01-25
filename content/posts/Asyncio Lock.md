@@ -9,7 +9,7 @@ tags:
 date: 2024-01-09T16:20:24+09:00
 draft: false
 featured: false
-modified: 2024-01-09T16:24:36+09:00
+modified: 2024-01-20T13:31:23+09:00
 ---
 asyncio 라이브러리가 제공하는 잠금으로 코루틴 간 경합 상황을 해결하는 도구이다.
 
@@ -21,4 +21,4 @@ asyncio 라이브러리가 제공하는 잠금으로 코루틴 간 경합 상황
 
 
 ## links
-- 
+- [Asyncio]({{< ref "/posts/Asyncio.md" >}})

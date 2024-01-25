@@ -7,7 +7,10 @@ showReadTime=false
 showShare=false
 showRelatedInArticle = true
 showRelatedInSidebar = true
+
+numberOfRecentPosts = 8
+
 pinFeatured = true
-numberOfFeaturedPosts = 10
+numberOfFeaturedPosts = 5
 
 dateFormat = "2006-01-02"

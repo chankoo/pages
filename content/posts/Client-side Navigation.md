@@ -8,7 +8,7 @@ tags:
   - nextjs
 date: 2023-11-08T10:00:42+09:00
 draft: false
-modified: 2024-01-09T13:50:22+09:00
+modified: 2024-01-09T17:50:32+09:00
 ---
 Next.js 의 페이지 간 이동을 client-side에서 처리하는 것을 의미한다
 
