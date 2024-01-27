@@ -8,7 +8,7 @@ tags:
 date: 2024-01-25T15:44:56+09:00
 draft: false
 featured: false
-modified: 2024-01-27T18:54:00+09:00
+modified: 2024-01-27T23:32:53+09:00
 ---
 코루틴이 외부 요인에 의해 중단되었음을 의미
 
@@ -37,7 +37,7 @@ coro.throw(asyncio.CancelledError)
 ```
 
 
-일반적으로 CancelledError 를 핸들링하는 도중엔 create_task 를 피해라. `asyncio.run()` 이 프로세스 내 태스크들을 취소 완료한 후에야 태스크를 생성하게된다. 그 결과 pending 상태에서 이벤트 루프가 소멸하며 'Task was destroyed but it is pending!' 에러를 만들게 된다.
+일반적으로 CancelledError 를 핸들링하는 도중엔 create_task 를 피해야한다. `asyncio.run()` 이 프로세스 내 태스크들을 취소 완료한 후에야 태스크를 생성하게된다. 그 결과 pending 상태에서 이벤트 루프가 소멸하며 'Task was destroyed but it is pending!' 에러를 만들게 된다.
 
 ```
 import asyncio
@@ -108,7 +108,7 @@ Traceback (most recent call last):
 RuntimeError: Event loop is closed
 ```
 
-서버 운영을 위해 의도적으로 프로세스를 종료할 때도 graceful shutdown에 실패하면 일부 태스크들을 상실하게된다. 이를 방지하고자 signal_handler를 커스텀하는 방식을 사용할 수 있다. sig_handler가 clean up을 수행한 뒤, 명시적으로 루프를 종료하는 것이다.
+서버 운영을 위해 의도적으로 프로세스를 종료할 때도 graceful shutdown에 실패하면 의도치 않은 동작을 발생시킬 수 있다. 이를 방지하고자 signal_handler를 커스텀하는 방식을 사용하는데, sig_handler가 clean up을 수행한 뒤, 명시적으로 루프를 종료하는 것이다.
 
 ```
 import asyncio
