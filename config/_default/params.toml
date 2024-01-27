@@ -8,9 +8,9 @@ showShare=false
 showRelatedInArticle = true
 showRelatedInSidebar = true
 
-numberOfRecentPosts = 8
+numberOfRecentPosts = 5
 
 pinFeatured = true
-numberOfFeaturedPosts = 5
+numberOfFeaturedPosts = 8
 
 dateFormat = "2006-01-02"

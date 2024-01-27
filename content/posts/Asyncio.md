@@ -8,7 +8,7 @@ tags:
 date: 2024-01-20T13:30:38+09:00
 draft: false
 featured: false
-modified: 2024-01-25T12:36:57+09:00
+modified: 2024-01-27T17:21:04+09:00
 ---
 async / await 문을 이용해 비동기 프로그래밍을 구현하는 파이썬 라이브러리이다.
 
@@ -20,6 +20,7 @@ IO 작업에 async 기반 동시성은
 1. asyncio.run()
 	- 코루틴 체인의 최상위 진입점으로, 코루틴 내 코루틴들을 모두 실행한다.
 	- 이벤트 루프 생성, 태스크 실행, 보류 태스크 취소, 이벤트 루프 소멸까지 한번에 작업한다.
+	- 내부적으로 `asyncio.gather(..., return_exceptions=True)` 을 사용한다.
 
 ```
 async def main():
@@ -62,10 +63,11 @@ loop.close()
 # Sun Aug 18 02:14:35 2019 Goodbye!
 ```
 
-6. asyncio.gather(\*awaitables)
+6. asyncio.gather(\*awaitables, return_exceptions=False)
 	- 인자로 받은 어웨이터블 시퀀스를 동시에 실행한다.
 	- 모든 어웨이터블을 완료하고 반환 값의 리스트를 리턴한다.
-	- 일부 작업이 취소되더라도 gather는 계속 진행된다.
+	- 일부 어웨이터블이 취소되더라도 다른 어웨이터블은 계속 실행된다. 하지만 `return_exceptions=False` 인 경우 예외는 즉시 전파된다.
+	- `return_exceptions=True` 면, 예외를 결과 값으로 반환한다.
 
 ```
 async def main():
@@ -86,7 +88,7 @@ asyncio.run(main())
 7. loop.run_in_executor(executor, func)
 	- 스레드나 프로세스 등 별도의 executor 에서 작업을 실행한다. 
 	- 메인 스레드를 블락하지 않으므로 무거운 블라킹 i/o 나 cpu 바운드 작업을 비동기로 실행할 때 적합하다.
-	- 다만 작업 시간이 메인 스레드의 작업보다 긴 블락 함수의 경우 주의가 필요하다.
+	- 다만 작업 시간이 메인 스레드의 작업보다 긴 블락 함수의 경우 (python 3.9 미만에서)주의가 필요하다.
 
 ```
 def blocking(): 

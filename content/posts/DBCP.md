@@ -7,13 +7,14 @@ tags:
   - django
 date: 2023-11-22T12:01:24+09:00
 draft: false
-modified: 2024-01-09T12:18:45+09:00
+modified: 2024-01-26T14:51:30+09:00
 ---
 DB Connection Pool. DB와의 커넥션 풀을 어플리케이션 단에 미리 만들어두는 것이다. DB와 커넥션을 맺고 끊기 위해 매번 TCP 통신하는 비용을 줄인다.
 
 - mysql 기준으로 성능에 중요한 설정
 	- max_connections: 클라이언트와 맺을 수 있는 최대 커넥션 수
-	- wait_timeout: inactive 커넥션을 얼마까지 기다린 뒤 close 할지 설정
+	- connect_timeout: 커넥션을 맺기 위해 기다리는 최대 시간(기본값 10초)
+	- wait_timeout: inactive 커넥션을 얼마까지 기다린 뒤 close 할지 설정(기본값 28800 - 8시간). 연결을 맺고 다음 쿼리까지 기다리는 최대 시간
 - django 기준으로 성능에 중요한 설정
 	- django는 커넥션 풀을 지원하지 않고, 요청마다 커넥션을 맺고 끊는다. 
 		- CONN_MAX_AGE: 하지만 CONN_MAX_AGE(default: 0)에 값을 주면, 커넥션을 지정한 시간 동안 종료하지 않아 커넥션 풀처럼 재사용이 가능하다.
