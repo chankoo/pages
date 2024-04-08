@@ -8,8 +8,8 @@ tags:
   - 시스템디자인
 date: 2023-11-26T13:54:34+09:00
 draft: false
-modified: 2024-01-08T02:18:18+09:00
-featured: true
+modified: 2024-04-07T11:56:06+09:00
+featured: false
 series: 시스템 디자인 연습
 ---
 ### 작업
@@ -34,7 +34,7 @@ vCPU 8개를 사용하여 테스트했을 때, 초당 1개 요청도 처리하�
 
 또 다른 문제는, 로컬 파일 시스템에 데이터를 저장하는 SQLite의 특성에서 기인했다. 데이터가 애플리케이션 서버마다 분산되어 있었고, 이로 인해 피드의 일관성 문제가 발생했다. 두 개의 태스크를 사용함에 따라, 각 태스크는 작성된 포스트의 절반만 조회할 수 있었다.
 
-{{< image src="/images/283491128-579dc6b7-6735-4818-b798-eba8947669ee.png" >}}
+![[283491128-579dc6b7-6735-4818-b798-eba8947669ee.png]]
 
 	[AWS ECS Fargate 설정]
 	태스크: 2
@@ -50,7 +50,7 @@ vCPU 8개를 사용하여 테스트했을 때, 초당 1개 요청도 처리하�
 
 DB를 MySQL로 변경하고 AWS EC2에서 도커 컨테이너로 DB 서버를 구축했을 때, 처리량은 100 RPS 수준으로 증가했지만 85%의 요청이 실패하는 새로운 문제에 직면했다.
 
-{{< image src="/images/283764373-b3286a7e-cc7e-40a3-aec3-76f2fdb5ffdb.png" >}}
+![[283764373-b3286a7e-cc7e-40a3-aec3-76f2fdb5ffdb.png]]
 
 	[AWS EC2 - Mysql container]
 	인스턴스 유형: t4g.medium(cpu 2 | memory 4GiB | EBS 버스트 대역폭 2,085 Mbps)
@@ -69,7 +69,7 @@ DB를 MySQL로 변경하고 AWS EC2에서 도커 컨테이너로 DB 서버를 �
 
 아래처럼 max_connections을 1000으로 높여준 결과 11 RPS로 처리량이 크게 줄었지만, 1% 미만의 요청 실패율을 보여주었다. 버퍼 풀의 메모리 사이즈(innodb_buffer_pool_size)나 로그의 flush 타이밍(Innodb_flush_log_at_trx_commit) 옵션 역시 중요한 튜닝 포인트지만, 실패율 문제를 해결하는 것에는 부가적인 영향만 주었다.
 
-{{< image src="/images/284218236-788a2fc8-7306-4fac-88eb-7676207c129e.png" >}}
+![[284218236-788a2fc8-7306-4fac-88eb-7676207c129e.png]]
 
 	[AWS EC2 - Mysql container]
 	인스턴스 유형: t4g.medium(cpu 2 | memory 4GiB | EBS 버스트 대역폭 2,085 Mbps)
@@ -88,11 +88,11 @@ DB를 MySQL로 변경하고 AWS EC2에서 도커 컨테이너로 DB 서버를 �
 
 피드를 캐시에 저장하도록 로직을 변경하고 별도의 비동기 태스크(Celery)로 작업했다. 캐시는 DB 부하를 줄이면서 고성능의 인메모리 저장소를 활용하려는 접근이다. 또한 별도의 비동기 서버를 활용하여 서비스 반응 시간을 줄이고, 동시성 수준을 높일 수 있었다. 이로써 고비용의 하드웨어 업그레이드나 복잡한 분산 시스템 구축 없이도 처리량을 300 RPS 수준으로 끌어올렸고, 성능 목표에 접근할 수 있었다. 
 
-{{< image src="/images/285499454-c73abb4d-39f0-402c-ba47-3fbea6318b72.png" >}}
+![[285499454-c73abb4d-39f0-402c-ba47-3fbea6318b72.png]]
 
 다만 비동기 태스크의 처리량이 낮은 상태여서 추가적인 최적화와 확장이 필요한 상태이다. 아래 이미지에서 보이듯, 피드 서비스(sample-feed) 작업이 완료된 후에도 캐시(ElastiCache redis)와 저장 태스크(sample-feed) 작업이 한동안 지속되는 상황인 것이다.
 
-{{< image src="/images/285499893-3a0f2d1d-1847-4905-a6d7-a763220dd4c4.png" >}}
+![[285499893-3a0f2d1d-1847-4905-a6d7-a763220dd4c4.png]]
 
 	[AWS ECS Fargate (피드 서비스)]
 	태스크: 4
