@@ -7,14 +7,14 @@ tags:
   - 동시성
 date: 2022-10-09T12:37:01+09:00
 draft: false
-modified: 2024-01-09T12:00:26+09:00
+modified: 2024-04-28T19:03:24+09:00
 ---
 Transaction 간 격리 수준
 
 DBMS는 다양한 수준의 Isolation Level을 제공하여 ACID의 Isolation 관점에서 엄격히 제한된 Transaction의 병행성 제약을 완화한다. 이상적으로 Transaction은 엄격히 격리해야 하지만, 실무적으로 걸림돌이 되기에, 격리 수준을 단계적으로 완화하는 Isolation Levels 를 정의하여 상황에 맞게 제공한다.
 
 - Serializable - Isolation 제약을 지키는 수준으로 트랜잭션을 serial schedule 로 수행하여 다른 트랜잭션의 수행과 겹치는 시간이 없다.
-- Repetable Reads
+- Repeatable Reads
 	- 반복해서 읽어도 같은 결과를 보여주는 수준으로, 반복 read 도중 커밋이 발생하여 값이 변해도 커밋 전 값을 읽어간다. (mysql innodb 에서 default)
 	- 스냅숏 격리를 통해 구현하여 과거 스냅숏을 보여줌으로써 일관된 읽기를 가능케한다. 즉, 트랜잭션의 첫 읽기 발생시에 스냅숏을 가져와 이후 연산은 그 스냅숏을 기준으로 수행한다. 
 	- Phantom Reads 는 발생한다. 
