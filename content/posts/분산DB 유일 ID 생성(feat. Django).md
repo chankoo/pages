@@ -10,7 +10,7 @@ tags:
 date: 2024-05-23T12:40:02+09:00
 draft: false
 featured: false
-modified: 2024-05-25T15:01:37+09:00
+modified: 2024-05-25T15:14:01+09:00
 ---
 ## 유일 ID 생성 방식
 
@@ -144,8 +144,9 @@ class Transaction(models.Model):
 5. 하지만 계좌(`Account`) 테이블엔 UUID를 사용하지 않았는데, 필터링를 위해 계좌의 유일id(계좌번호)를  빈번히 사용하기 때문이다. API 경로에 계좌번호를 포함해 요청하는 상황이고, 인가나 거래내역 조회에 지속적으로 계좌번호를 사용해야했다. **UUID는 길고(128비트), 문자를 포함하여 비교에 취약**하다. UUID를 기본키나 인덱스로 사용하면 큰 폭의 성능 저하가 우려되었다.
 6. 결국 **Auto Increment ID를 애플리케이션에서 생성**하는 방식(`create_unique_account_number`)으로 구현했다.
 	1. 계좌 생성이 필요한 `user_id`를 입력받아 해당하는 DB로 라우팅한다. 
-	2. DB 내 마지막 계좌의 id(내부 id)를 읽어온다. 
-	3. 가져온 내부 id 값에 id 증가폭(`auto_increment_increment`)을 곱하고, 지정된 id 시작값(`auto_increment_offset`)을 더한다.
+	2. DB 내 마지막 계좌의 id(계좌번호)를 읽어온다. 
+	3. 가져온 id 값에 id 증가폭(`auto_increment_increment`)을 더해서 새로운 id를 만든다. 
+	4. 가져온 id가 없다면 `auto_increment_offset` 값으로 id를 시작한다.
 7. 티켓서버와 유사한 방식으로, 애플리케이션이 중앙집중형으로 DB를 관리하기에 사용 가능했다.
 
 
