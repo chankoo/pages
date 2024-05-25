@@ -7,7 +7,7 @@ tags:
 date: 2024-04-28T12:02:40+09:00
 draft: false
 featured: false
-modified: 2024-04-28T12:27:00+09:00
+modified: 2024-05-20T18:46:34+09:00
 ---
 B-Tree 계열 인덱스 사용시 정렬에 인덱스를 사용할 수 있으며, 그 효과가 인덱스 유지 비용보다 커야한다.
 
@@ -70,6 +70,54 @@ class Contact(CoreModel):
 
 
 
+
+```
+SELECT SQL_NO_CACHE * FROM `works_inout`  WHERE (`works_inout`.`check_ts` >= 1714510800 AND `works_inout`.`check_ts` < 1714597200 and `works_inout`.`user_id`=1) ORDER BY `works_inout`.`check_ts` ASC LIMIT 10;
+```
+
+
+```
+class InOut(models.Model):
+	"""
+	출입기록
+	"""
+	user_id = models.PositiveIntegerField()
+	is_out = models.BooleanField(default=False)
+	check_ts = models.PositiveIntegerField()
+	
+	
+	class Meta:
+	
+		indexes = [
+			models.Index(fields=["user_id"]),
+			models.Index(fields=["check_ts"]),
+			# models.Index(fields=["user_id", "check_ts"]),
+		]
+```
+
+{{< image src="/images/Pasted image 20240520184414.png" >}}
+
+
+```
+class InOut(models.Model):
+	"""
+	출입기록
+	"""
+	user_id = models.PositiveIntegerField()
+	is_out = models.BooleanField(default=False)
+	check_ts = models.PositiveIntegerField()
+	
+	
+	class Meta:
+	
+		indexes = [
+			models.Index(fields=["user_id"]),
+			models.Index(fields=["check_ts"]),
+			models.Index(fields=["user_id", "check_ts"]),
+		]
+```
+
+{{< image src="/images/Pasted image 20240520184635.png" >}}
 ## refs
 - [인덱스와 ORDER BY](https://datarian.io/blog/postgresql-indexes-and-orderby)
 - [SQL - Using Temporary, Using Filesort 정리 (+ 임시 테이블, 파일 정렬)](https://jaehoney.tistory.com/192)

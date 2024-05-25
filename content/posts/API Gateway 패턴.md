@@ -7,11 +7,10 @@ tags:
   - api
 date: 2023-05-18T20:29:43+09:00
 draft: false
-modified: 2024-01-08T03:52:34+09:00
+modified: 2024-05-09T16:45:56+09:00
 featured: false
 ---
 
-## content
 1. API Gateway Pattern 을 정확히 이해하자
 	- MSA에 API Gateway Pattern이 필수적임
 	- API Gateway Pattern은 API Gateway Framework와는 무관함
