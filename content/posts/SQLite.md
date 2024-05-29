@@ -2,11 +2,12 @@
 title: SQLite
 categories:
   - DB
-tags: 
+tags:
+  - sqlite
 date: 2024-05-24T14:12:15+09:00
 draft: false
 featured: false
-modified: 2024-05-25T11:30:40+09:00
+modified: 2024-05-28T23:51:54+09:00
 ---
 SQLite는 DBMS로 아래와 같은 특징이 있다.
 
