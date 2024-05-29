@@ -12,7 +12,7 @@ modified: 2024-01-25T17:40:10+09:00
 ---
 싱글 스레드에서 요청을 비동기로 처리하기 위해 사용하는 루프. 
 
-- (python asyncio에서) [Asyncio Event Loop]({{< ref "/posts/Asyncio Event Loop.md" >}})
+- (python asyncio에서) Asyncio Event Loop
 - (gevent에서) I/O 요청시 커널에 요청을 주고 커널로 부터 응답 받은 이벤트를 처리하기 위해 돌고있는 루프
 	- 유저 영역 요청 -> 이벤트 루프 -> 이벤트 루프 응답 -> 대기하며 진행
 	- 커널 영역 블락 -> 이벤트 발생 -> 이벤트 루프에 노티 -> 대기 중인 것을 실현	
@@ -26,5 +26,4 @@ modified: 2024-01-25T17:40:10+09:00
 
 ## links
 - [비동기]({{< ref "/posts/비동기.md" >}})
-- [Asyncio Event Loop]({{< ref "/posts/Asyncio Event Loop.md" >}})
 - [gevent]({{< ref "/posts/gevent.md" >}})
