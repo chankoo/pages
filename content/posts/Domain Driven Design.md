@@ -4,10 +4,11 @@ categories:
   - 아키텍처
 tags:
   - 책
+  - DDD
 date: 2023-12-20T14:01:38+09:00
 draft: false
 featured: false
-modified: 2023-12-29T03:06:06+09:00
+modified: 2024-06-01T21:42:48+09:00
 ---
 
 ###  Domain과 Model
